@@ -2239,8 +2239,9 @@ label {
   margin-bottom: 24px;
 }
 .cs_about.cs_style_1 .cs_about_text {
-  max-width: 490px;
+  max-width: 510px;
   margin-bottom: 30px;
+  font-size: 20px;
 }
 .cs_about.cs_style_1 .cs_btn.cs_style_1 {
   margin-top: 50px;
