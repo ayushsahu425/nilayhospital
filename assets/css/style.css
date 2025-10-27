@@ -1339,6 +1339,7 @@ hr {
 
 .cs_bg_filed {
   background-size: cover;
+  
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1454,6 +1455,56 @@ label {
   line-height: 1.6em;
   border-radius: 1.6em;
 }
+.cs_btn.cs_style_2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 11px 55px;
+  line-height: 1.6em;
+  gap: 9px;
+  line-height: 1.6em;
+  border-radius: 1em;
+}
+.cs_btn.cs_style_2 i {
+  font-size: 15px;
+}
+.cs_btn.cs_style_2.cs_color_1 {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+.cs_btn.cs_style_2.cs_color_1:hover {
+  background-color: var(--blue-color);
+}
+.cs_btn.cs_style_2.cs_color_2 {
+  background-color: var(--blue-color);
+  color: #fff;
+}
+.cs_btn.cs_style_2.cs_color_2:hover {
+  background-color: var(--accent-color);
+}
+.cs_btn.cs_style_2.cs_color_3 {
+  background-color: #fff;
+  color: var(--blue-color);
+}
+.cs_btn.cs_style_2.cs_color_3:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+
+
 .cs_btn.cs_style_1 i {
   font-size: 15px;
 }
