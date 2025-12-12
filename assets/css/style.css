@@ -1387,6 +1387,7 @@ hr {
 
 .cs_white_bg {
   background-color: var(--white);
+  
 }
 
 .cs_primary_bg {
@@ -3018,7 +3019,7 @@ label {
 }
 
 .cs_page_heading {
-  height: 610px;
+  height: 430px;
   padding: 130px 0 50px;
 }
 @media (max-width: 991px) {
@@ -3036,6 +3037,7 @@ label {
 .cs_page_heading .cs_page_title {
   font-size: 66px;
   margin-bottom: 12px;
+  color: white;
 }
 @media (max-width: 991px) {
   .cs_page_heading .cs_page_title {
