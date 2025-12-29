@@ -1607,6 +1607,7 @@ label {
 .cs_service_details .cs_service_heading {
   font-size: 22px;
   margin-bottom: 27px;
+  line-height: 1.5; /* This increases the space between lines of text */
 }
 .cs_service_details .cs_service_subtitle {
   margin-bottom: 20px;
@@ -3038,6 +3039,10 @@ label {
   font-size: 66px;
   margin-bottom: 12px;
   color: white;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 800;
+  font-style: normal;
+
 }
 @media (max-width: 991px) {
   .cs_page_heading .cs_page_title {
@@ -8626,3 +8631,34 @@ label {
 .home_form_area .cs_form_field{
   background-color: #fff;
 }
+
+
+
+/* added css  */
+ .cs_banner_container {
+    /* Adjust these values to change the spacing amount */
+    padding: 40px; 
+    box-sizing: border-box;
+  }
+
+  .cs_banner_img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 450px;
+    
+    /* Optional: Adds rounded corners and a soft shadow for a premium look */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+
+  /* Responsive adjustment for mobile */
+  @media (max-width: 768px) {
+    .cs_banner_container {
+      padding: 10px; /* Smaller spacing on mobile screens */
+    }
+    .cs_banner_img {
+      max-height: 250px;
+    }
+  }
